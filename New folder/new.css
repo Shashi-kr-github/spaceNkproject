@@ -1,0 +1,462 @@
+/******** Body-css **********/
+body{
+    margin:0;
+}
+
+/******** Page-css **********/
+#page{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:100%;
+    margin: 0px;
+}
+
+/******** join-nudge-text-css **********/
+#join-nudge{
+    background-color: black;
+    font-size: 20px;
+    line-height:50px;
+    text-align: center;
+}
+
+
+#join-nudge a{
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: 1px; 
+    color: #cecece;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/******** Span-text-css **********/
+#join-nudge span{
+    text-decoration:underline;
+}
+
+/******** Display-flex-class-css **********/
+.d-flex{
+    display: flex;
+}
+
+/******** Header-css **********/
+.header__contents{
+    min-height: 60px;
+    align-items: center;
+}
+
+/******** Inside-Header-css **********/
+#header_container,#header_container-right{
+    display: flex !important;
+    align-items: center;   
+    position:relative;
+    background-color:white;
+    z-index:3;
+    padding-left:15px;
+    padding-right:15px;
+    width: 49%;   
+}
+
+/******** Header-1-css **********/
+#header_container{
+    justify-content: flex-start;
+}
+
+#header_container>img{
+    height:55px;
+}
+
+/******** Input-css **********/
+#input-search{
+    display:flex;
+    align-items:center;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:65%;
+}
+
+#input-search>input{
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    line-height: 35px;
+    width: 100%;
+    font-weight: 300;
+    text-indent: 15px;
+    border:1px solid #c7c6c6;
+}
+
+#input-search>span{
+    margin-left: -1px;
+    display:flex;
+    box-sizing: border-box;
+}
+
+/******** Search-button-css **********/
+#input-search>span>button{
+    line-height: 35px;
+    width: 100px;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+/******** Header-2-css **********/
+#header_container-right{
+    max-width: 50%;
+    list-style: none;  
+    margin-left: 100px; 
+}
+
+#header_container-right>div{
+    margin:0 0 0 30px;
+}
+
+#GBP{
+    width:110px;
+    height:50px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color:inherit;
+}
+
+#flag-icon{
+    background-image: url("https://www.spacenk.com/on/demandware.static/Sites-spacenkgb-Site/-/en_GB/v1629726925829/fonts/flags/4x3/gb.svg");
+    background-position: 50%;
+    width: 16px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    line-height: 16px;
+    position: relative;
+    margin-right: 16px;
+}
+
+#flag-text{
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size:12px;
+}
+
+#header_container-right>div>a{
+    font-weight: 200;
+    font-size:16px;
+    color: #444;
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+.anchor:hover{
+    text-decoration:underline;
+}
+
+/******** NavigationBar-css **********/
+#navbar{
+    display: flex;
+    background-color: rgb(31, 31, 31);
+}
+
+#navbar-div{
+    color: white;
+    display: flex;
+}
+
+#navbar-div li{
+    list-style: none;
+    margin:-10px 50px;
+    width:120px;
+}
+
+#navbar-div li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+/******** New-Container-css ********/
+#new-container{
+    width:70%;
+    margin: auto;
+    border:1px solid black;
+    padding:10px;
+}
+
+/******** New-Container-css ********/
+#row1>h1{
+    font-weight: 300;
+    font-size:32px;
+    color:#444;
+    letter-spacing: 3px;
+}
+
+.rows{
+    display:flex;
+    margin-top: 20px;
+}
+
+#row2>span>a{
+    color:#444;
+}
+
+#row3>span{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:#444;
+}
+
+#reset-btn{
+    width: 180px;
+    height:44px;
+    color:#444;
+    background-color:transparent;
+    border-radius:8px;
+}
+
+#reset-btn:hover{
+    background-color:black;
+    color:white;
+}
+
+#sorting_options{
+    width: 20%;
+    display: block;
+    margin-top: 40px;
+}
+
+
+/******** New Product Container *********/
+#items {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-gap: 4%;
+    margin: 3%;
+    margin-bottom: 600px;
+    text-align: center;
+    width: 73%;
+    margin-left: 2% !important;
+    float: right;
+  }
+
+  .new_arrivals {
+    width: 73%;
+    float: right;
+    border-bottom: 2px solid #dcdcdc;
+    margin-bottom: 20px;
+  }
+
+  #mySelect {
+      border: 0.5px solid #dcdcdc;
+      color: #444;
+      cursor: pointer;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 40px;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      letter-spacing: 0.2px;
+      line-height: 40px;
+      padding: 0 10px;
+      width: 200px;
+      border-radius: 8px;
+      margin-right: 50px;
+    }
+
+    .CollectionTitle {
+      color: #444;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      line-height: 30px;
+      text-transform: uppercase;
+      float: left;
+      height: 40px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+  
+  .page_navigator {
+    margin-left: 4%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .page_navigator span {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    text-transform: capitalize;
+  }
+  
+  #sorting_options div {
+    margin-bottom: 15px;
+  }
+  
+  .SortHeader {
+    float: right;
+    color: #444;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    line-height: 40px;
+    margin-right: 15px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+  
+  .FiltersHeader {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    text-transform: uppercase;
+  }
+  
+  .dropbtn {
+    background-color: white;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    color: #444;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    /* line-height: 24px; */
+    border-bottom: 1px solid #d8d8d8;
+    /* padding-top: 15px; */
+    height: 50px;
+  }
+  
+  .dropbtn:hover,
+  .dropbtn:focus {
+    background-color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 15%;
+    margin-top: 0px;
+    overflow: auto;
+    box-sizing: border-box;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+    width: 20px;
+    height: 100px;
+    background: #fff;
+    border: 0px solid #c4c9ca;
+    border-radius: 3px;
+    /* margin: auto 10px auto 0; */
+  }
+  
+  .dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .filter_box {
+      height: 50px;
+  }
+  
+  .FilterName {
+    color: #444;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 27px;
+    text-transform: capitalize;
+  }
+  
+  .FilterType {
+    text-transform: capitalize;
+  }
+  .TotalFilters {
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: lowercase;
+    letter-spacing: 0.14px;
+    line-height: 13px;
+    margin-top: 5px;
+  }
+  .Icon {
+    height: 16px;
+    width: 16px;
+    margin:  0;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 8px);
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/******** Footer-css **********/
+.new-in-products{
+    cursor: pointer;
+    margin: auto;
+}

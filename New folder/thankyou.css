@@ -1,0 +1,209 @@
+/******** Body-css **********/
+body {
+    margin: 0;
+  }
+  
+  /******** Page-css **********/
+  #page {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  /******** join-nudge-text-css **********/
+  #join-nudge {
+    background-color: black;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  /******** Join-anchor-button-css **********/
+  #join-nudge a {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #cecece;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  
+  /******** Span-text-css **********/
+  #join-nudge span {
+    text-decoration: underline;
+  }
+  
+  /******** Display-flex-class-css **********/
+  .d-flex {
+    display: flex;
+  }
+  
+  /******** Header-css **********/
+  .header__contents {
+    min-height: 60px;
+    align-items: center;
+  }
+  
+  /******** Inside-Header-css **********/
+  #header_container,
+  #header_container-right {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    z-index: 3;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 49%;
+  }
+  
+  /******** Header-1-css **********/
+  #header_container {
+    justify-content: flex-start;
+  }
+  
+  #header_container > a > img {
+    height: 55px;
+  }
+  
+  /******** Input-css **********/
+  #input-search {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 65%;
+  }
+  
+  #input-search > input {
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    line-height: 35px;
+    width: 100%;
+    font-weight: 300;
+    text-indent: 15px;
+    border: 1px solid #c7c6c6;
+  }
+  
+  #input-search > span {
+    margin-left: -1px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  /******** Search-button-css **********/
+  #input-search > span > button {
+    line-height: 35px;
+    width: 100px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  
+  /******** Header-2-css **********/
+  #header_container-right {
+    max-width: 50%;
+    list-style: none;
+    margin-left: 100px;
+  }
+  
+  #header_container-right > div {
+    margin: 0 0 0 30px;
+  }
+  
+  #GBP {
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: inherit;
+  }
+  
+  #flag-icon {
+    background-image: url("https://www.spacenk.com/on/demandware.static/Sites-spacenkgb-Site/-/en_GB/v1629726925829/fonts/flags/4x3/gb.svg");
+    background-position: 50%;
+    width: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    line-height: 16px;
+    position: relative;
+    margin-right: 16px;
+  }
+  
+  #flag-text {
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  #header_container-right > div > a {
+    font-weight: 200;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .anchor {
+    text-decoration: none;
+  }
+  
+  .anchor:hover {
+    text-decoration: underline;
+  }
+  
+  /******** NavigationBar-css **********/
+  #navbar {
+    display: flex;
+    background-color: rgb(31, 31, 31);
+  }
+  
+  #navbar-div {
+    color: white;
+    display: flex;
+  }
+  
+  #navbar-div li {
+    list-style: none;
+    margin: -10px 50px;
+    width: 120px;
+  }
+  
+  #navbar-div li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /******** ! __Header End__ ! *********/
+
+  #thankyou{
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+  }
+
+  #homepage{
+    background-color: orange; 
+    color: navy;
+    align-items: center;
+    text-align: center; 
+    margin: 20px auto; 
+    cursor: pointer; 
+    width: 20%;
+    height:40px;
+    letter-spacing: 1px;
+  }
+
+
+
+  /******** Footer-css **********/
+.new-in-products {
+    cursor: pointer;
+    margin: 0;
+  }
